@@ -1,3 +1,5 @@
+"use client";
+
 export default function TestDetailPage() {
   return (
     <section className="py-8 max-w-2xl mx-auto">
@@ -7,7 +9,7 @@ export default function TestDetailPage() {
         <label className="block mb-2 font-semibold">코드 에디터 (더미)</label>
         <textarea className="w-full h-40 border rounded p-2 font-mono" placeholder="여기에 코드를 작성하세요"></textarea>
       </div>
-      <button className="px-6 py-2 bg-primary text-primary-foreground rounded">제출</button>
+      <button className="px-6 py-2 rounded bg-indigo-600 text-white font-bold">제출</button>
       <div className="mt-6 p-4 border rounded bg-muted">
         <strong>채점 결과:</strong> (더미)
       </div>
